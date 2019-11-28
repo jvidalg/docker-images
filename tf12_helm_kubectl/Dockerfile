@@ -10,7 +10,7 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
 
 ENV KUBE_LATEST_VERSION="v1.16.2"
 ENV HELM_VERSION="v3.0.0"
-ENV TERRAFORM_VERSION=0.12.12
+ENV TERRAFORM_VERSION=0.12.16
 ENV PATH = $PATH:/usr/local/google-cloud-sdk/bin/
 
 RUN apk add --no-cache ca-certificates bash git openssh curl \
